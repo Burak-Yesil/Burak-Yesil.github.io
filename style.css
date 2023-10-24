@@ -430,3 +430,36 @@ footer {
 footer p {
     text-align: center;
 }
+
+/* CAROUSEL SECTION */
+#carousel-section {
+    padding: 2rem 0; /* Padding around the carousel */
+}
+
+/* Carousel specific styling */
+.carousel {
+    margin: auto; /* Center the carousel */
+    max-width: 800px; /* Maximum width of the carousel */
+}
+
+.carousel-indicators button {
+    width: 12px;
+    height: 12px;
+    background-color: grey;
+}
+
+.carousel-indicators .active {
+    background-color: black;
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5); /* Black background with some transparency */
+    padding: 1rem;
+    border-radius: 8px; /* Rounded corners */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: black; /* Black background for navigation arrows */
+    border-radius: 50%; /* Circular navigation arrows */
+}
